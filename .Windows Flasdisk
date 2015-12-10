@@ -1,0 +1,16 @@
+Cara Manual :
+   
+    01. Colokkan USB Flaskdisk anda. (masukin ke usb port yah, jgn ke tempat lain).
+    02. Tekan Tombol WIN+R, ketik cmd dan klik OK.
+    03. Ketik diskpart dan tekan ENTER.
+    04. Ketik list disk, tekan ENTER dan pilihlah yang mana adalah USB flashdisk anda, hati2 jangan salah pilih nanti salah2 yg keformat adalah disk yang lain. jikalau anda punya hanya 1 harddisk makan USB flaskdisknya adalah disk1.
+    05. Ketik select disk 1 dan tekan ENTER.
+    06. Ketik clean dan tekan ENTER.
+    07. Ketik create partition primary lalu tekan ENTER.
+    08. Ketik select partition 1 dan tekan ENTER
+    09. Ketik active dan tekan ENTER.
+    10. Ketik format fs=fat32 dan tekan ENTER
+    11. Ketik assign dan tekan ENTER
+    12. Ketik exit dan tekan ENTER.
+    13. Masukkan disk DVD windows 7  dan copy lah semua isi DVD tadi ke USB Flaskdisk anda.
+    14. Booting komputer anda melalu USB Flashdisk, setting malalui bios komputer anda, pastikan boot nya melalui USB Flashdisk, apabila langkah2nya betul, maka proses instalasi windows seharusnya berjalan melalui USB Flashdisk.
